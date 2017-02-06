@@ -1,0 +1,35 @@
+{
+  "name": "rocket-turtle-tail",
+  "version": "0.0.1",
+  "description": "Tail a file within node!",
+  "engines": { 
+    "node": ">=6.9" 
+  },
+  "main": "lib/rocket-turtle-tail.js",
+  "repository": "https://github.com/grahamkennery/rocket-turtle-tail",
+  "author": "Graham Kennery",
+  "license": "MIT",
+  "scripts": {
+    "test": "semistandard && mocha"
+  },
+  "semistandard": {
+    "globals": [
+      "describe",
+      "context",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach",
+      "it",
+      "expect",
+      "xdescribe",
+      "xit"
+    ]
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "semistandard": "^9.2.1",
+    "sinon": "^1.17.7"
+  }
+}
