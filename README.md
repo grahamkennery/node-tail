@@ -1,4 +1,6 @@
-# rocket-turtle-tail [![Build Status](https://travis-ci.org/grahamkennery/rocket-turtle-tail.svg?branch=master)](https://travis-ci.org/grahamkennery/rocket-turtle-tail)
+# rocket-turtle-tail
+
+[![Build Status](https://travis-ci.org/grahamkennery/rocket-turtle-tail.svg?branch=master)](https://travis-ci.org/grahamkennery/rocket-turtle-tail) [![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=plastic)](https://github.com/Flet/semistandard)
 
 Ever wanted to tail a file in node? Me too! Wow! Fun!
 
