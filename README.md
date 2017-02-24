@@ -1,5 +1,7 @@
 # rocket-turtle-tail
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/grahamkennery/rocket-turtle-tail.svg)](https://greenkeeper.io/)
+
 [![Build Status](https://travis-ci.org/grahamkennery/rocket-turtle-tail.svg?branch=master)](https://travis-ci.org/grahamkennery/rocket-turtle-tail) [![js-semistandard-style](https://img.shields.io/badge/code%20style-semistandard-brightgreen.svg?style=plastic)](https://github.com/Flet/semistandard)
 
 Ever wanted to tail a file in node? Me too! Wow! Fun!
