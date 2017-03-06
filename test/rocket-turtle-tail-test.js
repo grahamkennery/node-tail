@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-expressions */
 'use strict';
 const sinon = require('sinon');
 const chai = require('chai');
@@ -49,8 +50,8 @@ describe('RocketTurtleTail', () => {
           fs.appendFileSync(TEST_PATH, 'Testing' + ending.lineEnding, { encoding: 'utf-8' });
           setTimeout(() => {
             tail.stop();
-            expect(onLineSpy.calledOnce).to.be.true;
-            expect(onLineSpy.calledWithExactly('Testing')).to.be.true;
+            expect(onLineSpy.calledOnce).to.be.true; // standard ignore:line
+            expect(onLineSpy.calledWithExactly('Testing')).to.be.true; // jshint ignore:line
             done();
           }, TIMOUT_LENGTH);
         }, TIMOUT_LENGTH);
