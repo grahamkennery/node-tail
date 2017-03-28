@@ -38,6 +38,7 @@ The constructor takes an optional second parameter of options as follows (defaul
 ``` javascript
 new RocketTurtleTail('path-to-file', {
   useWatchFile: false, // Use fs.watchFile instead of fs.watch
+  interval: 5000, // Specifies the interval for useWatchFile
   fromBeginning: false // Read the file from the beginning
 });
 ```
@@ -45,4 +46,3 @@ new RocketTurtleTail('path-to-file', {
 ---
 
 This project was inspired by [node-tail](https://github.com/lucagrulla/node-tail). I made this repo for my own use since it couldn't do something and I don't like coffeescript enough to fix it ;)
-
