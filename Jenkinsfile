@@ -1,12 +1,12 @@
 pipeline {
-  agent any
+  agent {
+    docker { image 'node:8-alpine }
+  }
   stages {
     stage('Test') {
-      agent any
       steps {
-        nodejs(nodeJSInstallationName: 'Node 8.11.2', configId: '<config-file-provider-id>') {
-          sh 'npm test'
-        }
+        sh 'npm install'
+        sh 'npm test'
       }
     }
   }
