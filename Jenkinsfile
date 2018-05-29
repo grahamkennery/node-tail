@@ -5,7 +5,7 @@ pipeline {
   stages {
     stage('Test') {
       steps {
-        nodejs(nodeJSInstallationName: 'node8', configId: '<config-file-provider-id>') {
+        nodejs(nodeJSInstallationName: 'node8', configId: null) {
           sh 'npm install'
           sh 'npm test'
         }
