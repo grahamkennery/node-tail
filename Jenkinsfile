@@ -2,14 +2,13 @@ pipeline {
   agent {
     label 'node'
   }
-  tools {
-    nodejs 'node8'
-  }
   stages {
     stage('Test') {
       steps {
-        sh 'npm install'
-        sh 'npm test'
+        nodejs(nodeJSInstallationName: 'node8', configId: '<config-file-provider-id>' {
+          sh 'npm install'
+          sh 'npm test'
+        }
       }
     }
   }
