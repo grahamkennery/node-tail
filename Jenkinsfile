@@ -3,7 +3,7 @@ pipeline {
     label 'node'
   }
   tools {
-    node 'node8'
+    nodejs 'node8'
   }
   stages {
     stage('Test') {
