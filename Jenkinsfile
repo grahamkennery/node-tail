@@ -10,7 +10,6 @@ pipeline {
     stage('Test') {
       steps {
         nodejs(nodeJSInstallationName: 'node8', configId: null) {
-          echo ${env.PATH}
           sh 'npm install'
           sh 'npm test'
         }
