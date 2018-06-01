@@ -9,7 +9,6 @@ pipeline {
           sh 'echo "PATH = ${PATH}"';
           sh 'which npm'
           sh 'which node'
-          sh 'which nodejs'
           sh 'npm install'
           sh 'npm test'
         }
